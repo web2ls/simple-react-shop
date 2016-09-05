@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Internet shop</title>
+		<link rel="stylesheets" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<style>
+			header {
+				position: relative;
+			  width: 100%;
+			  height: 100px;
+				padding: 10px 20px;
+			  background: #2980b9;
+			  color: #fff;
+				font-family: Arial;
+			}
+			header h1 {
+				display: inline-block;
+				text-transform: uppercase;
+			}
+			.nav {
+				display: inline-block;
+				margin-left: 20%;
+			}
+			.nav li {
+				display: inline-block;
+				margin-right: 20px;
+				text-transform: uppercase;
+				border-bottom: 3px solid transparent;
+			}
+			.nav li a {
+				color: #fff;
+				text-decoration: none;
+			}
+			.nav li:hover {
+				border-bottom: 3px solid #fff;
+			}
+			.nav li .active {
+				color: #34495e;
+			}
+			.cart {
+				display: inline-block;
+				margin-left: 10%;
+			}
+			.content {
+				width: 940px;
+				margin:0 auto;
+				padding-bottom: 100px;
+				background: #ecf0f1;
+				text-align: center;
+			}
+			.home-page,
+			.about-page {
+				padding: 10px 20px;
+			}
+			.home__header,
+			.about__header,
+			.catalog__header {
+				font-family: Arial;
+				text-align: center;
+			}
+			.home__image,
+			.about__image {
+				max-width: 50%;
+				height: auto;
+			}
+			.goods {
+				list-style-type: none;
+				padding-left: 0
+			}
+			.goods li {
+				display: inline-block;
+				width: 30%;
+				margin: 10px;
+				background: #bdc3c7;
+				vertical-align: top;
+				cursor: pointer;
+			}
+			.good-image {
+				max-width: 50%;
+				height: auto;
+			}
+			.good-image-full {
+				max-width: 80%;
+				height: auto;
+			}
+			.back-to-catalog,
+			.add-to-cart {
+				width: 150px;
+				height: 35px;
+				margin-bottom: 20px;
+				font-family: Arial;
+				font-size: 0.8em;
+				text-transform: uppercase;
+				color: #fff;
+				border: none;
+				border-radius: 10px;
+				background: #2980b9;
+			}
+			.back-to-catalog a {
+				color: #fff;
+				text-decoration: none;
+			}
+			.add-to-cart {
+				cursor: pointer;
+			}
+			footer {
+				position: relativ;
+				left: 0;
+				bottom: 0;
+			  width: 100%;
+			  height: 50px;
+				padding: 0 20px;
+			  background: #2980b9;
+			  color: #fff;
+				font-family: Arial;
+				font-size:0.8em;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div id="root"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="/build/bundle.js"></script>
+	</body>
+</html>
