@@ -1,2 +1,2 @@
 # simple-react-shop
-simple inetrnet shop on Reactjs
+simple internet shop on Reactjs
